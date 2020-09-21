@@ -20,8 +20,6 @@ def get_nb_char(string: str, char: str) -> int:
     for letter in string:
         if char==letter:
            i+=1
-        else:
-            i+=0
     return i
 
 
